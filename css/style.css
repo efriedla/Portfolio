@@ -86,10 +86,12 @@ section {
   text-shadow: none;
 }
 
+
 img::selection {
   color: white;
   background: transparent;
   min-height:375px;
+  
 }
 
 img::-moz-selection {
@@ -101,6 +103,9 @@ body {
   -webkit-tap-highlight-color: #222222;
 }
 
+nav{
+    background-color:#254558 !important;
+}
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
@@ -234,6 +239,7 @@ body {
   }
 }
 
+
 header.masthead {
   position: relative;
   width: 100%;
@@ -315,7 +321,6 @@ header.masthead .header-content .header-content-inner p {
 .portfolio-box {
   position: relative;
   display: block;
-  /* max-width: 650px; */
   margin: 0 auto;
   min-height:375px;
   
